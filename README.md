@@ -16,5 +16,6 @@ Because the limit in time & requirement, this plugin missing following feature:
 - Missing Account Activation/ Email Verification
 - Missing Forgot Password/Reset Password feature
 - Missing remember me.
+- Remember the URL before login, to redirect user back to that page after login success.
 ...
   
