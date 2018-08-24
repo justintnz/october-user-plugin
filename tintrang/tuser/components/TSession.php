@@ -32,7 +32,7 @@ class TSession extends ComponentBase{
     public function onRun()
     {
         if (!Session::has('user')) {
-            return \Redirect::to('/login/'); 
+            return User::toLoginPage();
         }
     }
 
