@@ -1,0 +1,22 @@
+fields:
+    name:
+        label: 'Name *'
+        span: auto
+        type: text
+    surname:
+        label: 'Surname *'
+        span: auto
+        type: text
+    email:
+        label: 'Email *'
+        span: full
+        type: text
+        comment: 'Email must be unique'
+    phone:
+        label: 'Phone *'
+        span: full
+        type: text
+    password1:
+        label: 'Password *'
+        span: auto
+        type: password

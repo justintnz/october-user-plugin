@@ -1,0 +1,11 @@
+name: User
+modelClass: TinTrang\Tuser\Models\User
+form: $/tintrang/tuser/models/user/fields.yaml
+defaultRedirect: tintrang/tuser/user
+create:
+    redirect: 'tintrang/tuser/user/update/:id'
+    redirectClose: tintrang/tuser/user
+update:
+    redirect: tintrang/tuser/user
+    redirectClose: tintrang/tuser/user
+preview: {  }

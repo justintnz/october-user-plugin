@@ -1,0 +1,63 @@
+<div class="container">
+    <div class="page-header row">
+        <h2 class="col-sm-6">Account</h2>
+    </div>
+    <div class="col-md-8">
+        <form id="update-form" action=# role="form" data-request="{{ __SELF__ }}::onUpdate" data-request-success="alert('Your profile has been updated')">
+            <label for="email" class="col-xs-4 control-label hidden-xs "><span class="pull-right">Email</span></label>
+            <div class="form-group col-sm-8">
+                <div class="form-control bg-light "><strong>{{user.email}}</strong></div>
+            </div>
+
+            <label for="name" class="col-xs-4 control-label hidden-xs "><span class="pull-right">Name</span></label>
+            <div class="form-group col-sm-8">
+                <input type="text" name="name" class="form-control" placeholder="Name" value="{{user.name}}">
+            </div>
+
+            <label for="surname" class="col-xs-4 control-label hidden-xs "><span class="pull-right">Surname</span></label>
+            <div class="form-group col-sm-8">
+                <input type="text" name="surname" class="form-control" placeholder="Surname" value="{{user.surname}}">
+            </div>
+
+            <label for="phone" class="col-xs-4 control-label hidden-xs "><span class="pull-right">Phone</span></label>
+            <div class="form-group col-sm-8">
+                <input type="phone" name="phone" class="form-control" placeholder="Phone" value="{{user.phone}}">
+            </div>
+
+
+
+            <label for="current_password" class="col-xs-4 control-label hidden-xs "><span class="pull-right">Current Password</span></label>
+            <div class="form-group col-sm-8">
+                <input type="password" name="current_password" class="form-control" placeholder="Current Password only required to set new password">
+            </div>
+
+            <label for="password" class="col-xs-4 control-label hidden-xs "><span class="pull-right">Password</span></label>
+            <div class="form-group col-sm-8">
+                <input type="password" name="password" class="form-control" placeholder="New password">
+            </div>
+
+            <label for="password_confirmation" class="col-xs-4 control-label hidden-xs "><span class="pull-right">Confirm
+                    Password
+                </span></label>
+            <div class="form-group  col-sm-8">
+                <input type="password" name="password_confirmation" class="form-control" placeholder="Confirm new password">
+            </div>
+
+
+            <div class="form-group col-sm-12">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <button class="form-control btn btn-danger " data-request="{{ __SELF__ }}::onLogout">Logout</button>
+                    </div>
+                    <div class="col-xs-4">
+                        <button type="submit" name="update-submit" class="form-control btn btn-success">Update</button>
+                    </div>
+                    <div class="col-xs-4">
+                        <button type="reset" name="reset" class="form-control btn btn-primary">Reset</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+</div>

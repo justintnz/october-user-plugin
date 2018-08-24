@@ -1,0 +1,14 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table tintrang_tuser_'
+    - builder_table_create_tintrang_tuser_.php
+1.0.3:
+    - 'Drop table tintrang_tuser_'
+    - builder_table_delete_tintrang_tuser_.php
+1.0.4:
+    - 'Created table tintrang_tuser_'
+    - builder_table_create_tintrang_tuser__2.php
+1.0.5:
+    - 'Updated table tintrang_tuser_'
+    - builder_table_update_tintrang_tuser_.php

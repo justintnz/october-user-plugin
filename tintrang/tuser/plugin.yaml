@@ -1,0 +1,11 @@
+plugin:
+    name: 'tintrang.tuser::lang.plugin.name'
+    description: 'tintrang.tuser::lang.plugin.description'
+    author: 'Tin Trang'
+    icon: oc-icon-users
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: User
+        url: tintrang/tuser/user
+        icon: icon-users
